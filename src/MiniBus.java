@@ -1,5 +1,5 @@
 public class MiniBus extends Bus {
-    public String tipoViaje;
+    private String tipoViaje;
 
 
     public MiniBus() {

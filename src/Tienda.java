@@ -1,8 +1,8 @@
 public class Tienda {
 
-    public Vendedor vendedor;
-    public Vehiculo vehiculo;
-    public int stock;
+    private Vendedor vendedor;
+    private Vehiculo vehiculo;
+    private int stock;
 
     public Tienda(Vendedor vendedor, Vehiculo vehiculo, int stock) {
         this.vendedor = vendedor;

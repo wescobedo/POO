@@ -1,8 +1,8 @@
 public class Persona {
 
-    public String rut;
-    public String nombre;
-    public int edad;
+    private String rut;
+    private String nombre;
+    private int edad;
 
     public Persona(){
     }

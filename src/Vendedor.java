@@ -1,6 +1,6 @@
 public class Vendedor extends Persona{
 
-    public String direccion;
+    private String direccion;
 
     public Vendedor(){
 
