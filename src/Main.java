@@ -2,18 +2,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Taxi t = new Taxi(1000);
-        t.pagarPasaje();
+        Vehiculo v = new Vehiculo("verde", "JHLD45");
+        Cliente c = new Cliente( "8.999.777-2", "Juan", 35);
+        LibroVenta lv = new LibroVenta("vta_mazda", "01012024" );
 
-        Bus b = new Bus("verde", "JHLD45", 60);
-        System.out.println( b.asientosDisponibles());
-
-        MiniBus mb = new MiniBus("rojo", "LDBH43",24, "corto");
-        mb.imprimeBus();
-
-        Tienda ti = new Tienda( 34 );
-        ti.existeStock();
-
+        lv.guardarVenta(c, v);
 
     }
 }
